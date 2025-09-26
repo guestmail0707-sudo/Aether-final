@@ -20,9 +20,10 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="App flex-container">
         <Navbar />
-        <Routes>
+        <main className="flex-content">
+          <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
@@ -31,7 +32,8 @@ function App() {
           <Route path="/soul-assistive-devices" element={<SoulAssistiveDevices />} />
           <Route path="/faqs" element={<FAQs />} />
           <Route path="/contact" element={<Contact />} />
-        </Routes>
+          </Routes>
+        </main>
         <Footer />
       </div>
     </BrowserRouter>
