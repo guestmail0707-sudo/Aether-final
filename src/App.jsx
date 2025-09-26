@@ -8,6 +8,8 @@ import Services from './pages/Services';
 import FAQs from './pages/FAQs';
 import Contact from './pages/Contact';
 import SoulCare from './pages/SoulCare';
+import PhysioConnect from './pages/PhysioConnect';
+import SoulAssistiveDevices from './pages/SoulAssistiveDevices';
 import './App.css';
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/soul-care" element={<SoulCare />} />
+          <Route path="/physioconnect" element={<PhysioConnect />} />
+          <Route path="/soul-assistive-devices" element={<SoulAssistiveDevices />} />
           <Route path="/faqs" element={<FAQs />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

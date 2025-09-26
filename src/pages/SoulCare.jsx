@@ -1,16 +1,19 @@
 import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const SoulCare = () => {
+  const navigate = useNavigate();
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   const handlePhysioRedirect = () => {
-    window.open('/public/physioconnect/index.html', '_blank');
+    navigate('/physioconnect');
   };
 
   const handleDivyangRedirect = () => {
-    window.open('/public/soul-assistive-devices/index.html', '_blank');
+    navigate('/soul-assistive-devices');
   };
 
   return (
