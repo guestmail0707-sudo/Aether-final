@@ -1,8 +1,0 @@
-{
-  "name": "PhysioConnect",
-  "description": "A modern and elegant web application to book appointments with a physiologist and engage in a real-time chat. The application features a clean, Paige-colored UI for a calming user experience.",
-  "requestFramePermissions": [
-    "camera",
-    "microphone"
-  ]
-}
