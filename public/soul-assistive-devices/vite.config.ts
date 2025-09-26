@@ -18,10 +18,6 @@ export default defineConfig(({ mode }) => {
         alias: {
           '@': path.resolve(__dirname, '.'),
         },
-        modules: [
-          path.resolve(__dirname, 'node_modules'),
-          path.resolve(__dirname, '../../node_modules')
-        ]
       }
     };
 });
