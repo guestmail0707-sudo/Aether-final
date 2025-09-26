@@ -6,11 +6,11 @@ const SoulCare = () => {
   }, []);
 
   const handlePhysioRedirect = () => {
-    window.open('/physioconnect/index.html', '_blank');
+    window.open('/public/physioconnect/index.html', '_blank');
   };
 
   const handleDivyangRedirect = () => {
-    window.open('/soul---assistive-healthcare-devices (4)/index.html', '_blank');
+    window.open('/public/soul-assistive-devices/index.html', '_blank');
   };
 
   return (
